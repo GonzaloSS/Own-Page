@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Prueba from './Prueba';
+import Vista2 from './Vista2';
+import {Route, Link} from 'react-router-dom';
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div className="App">
+     <Route exact path="/" component={Prueba}/>
+     <Route exact path="/vista2" component={Vista2}/>
+   </div>
+
+
+
+
   );
+
+  
 }
+
+
+
+
+
+
+
 
 export default App;
