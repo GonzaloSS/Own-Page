@@ -11,13 +11,19 @@ class Boton extends Component{
         
         return(
             <Link to="/vista2">
-             <button >Click me!</button>
+             <button onClick={hola}>Click me!</button>
              </Link>
 
            
         );
     }
+
+
+  
    
+}
+function hola(){
+     console.log("hola")   
 }
 
 export default Boton;

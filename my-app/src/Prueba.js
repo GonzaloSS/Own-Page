@@ -1,17 +1,34 @@
 import React from 'react';
-import Boton from './components/boton';
-function Prueba(){
-    return(
-        <div className="App">
-        <header className="App-header">
-          <div>
-            <p>Prueba de boton</p>
-          <Boton type="button"></Boton>
-          </div>
+import NavBar from './components/toolbar'
+import SkillList from './components/skillList'
+import coding from './img/coding.png'
+import './mainPage.css';
+
+
+function Prueba() {
+
+  return (
+
+    <div>
+      <NavBar></NavBar>
+      <div class="header">
        
-        </header>
       </div>
-    );
+      <div class="body">
+        <br/><br/>
+        <div>
+        <img class="coding" src={coding} alt="coding"/>
+        <br/><br/>
+        <span>Mis conocimientos</span>
+        <br/> <br/>
+        <SkillList></SkillList>
+        </div>
+      </div>
+    </div>
+    
+  );
 }
+
+
 
 export default Prueba;

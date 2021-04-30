@@ -1,0 +1,18 @@
+.imagen{
+   height: 50px;
+}
+
+.ionic{
+    height: 30px;
+}
+
+
+.script{
+    height: 35px;    
+}
+
+.imagenToolbar{
+    width: 50px;
+    display: flex;
+    justify-content: space-between
+}
