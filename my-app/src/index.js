@@ -5,10 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, HashRouter} from 'react-router-dom';
 ReactDOM.render(
-  <HashRouter basename={process.env.REACT_APP_ROUTER_BASE|| ''}>
-    <App /> 
-  </HashRouter>,
+  <HashRouter>
+  <App /> 
+</HashRouter>,
   document.getElementById('root')
+ 
 );
 
 // If you want to start measuring performance in your app, pass a function
