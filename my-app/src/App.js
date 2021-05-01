@@ -1,16 +1,15 @@
 
 import './App.css';
-import Prueba from './Prueba';
-import Pepe from './Prueba';
-import Vista2 from './Vista2';
+import MainHome from './mainHome';
+import Perfil from './perfil';
 import {Route, Link} from 'react-router-dom';
 function App() {
 
   return (
    <div className="App">
-     <Route exact path="/" component={Prueba}/>
-     <Route exact path="/pepe" component={Pepe}/>
-     <Route exact path="/vista2" component={Vista2}/>
+     <Route exact path="/" component={MainHome}/>
+     <Route exact path="/home" component={MainHome}/>
+     <Route exact path="/perfil" component={Perfil}/>
    </div>
 
 

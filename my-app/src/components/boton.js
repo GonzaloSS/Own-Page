@@ -10,7 +10,7 @@ class Boton extends Component{
     render(){
         
         return(
-            <Link to="/vista2">
+            <Link to="/perfil">
              <button onClick={hola}>Click me!</button>
              </Link>
 
