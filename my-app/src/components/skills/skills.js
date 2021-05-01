@@ -46,9 +46,9 @@ export default function Skills() {
                 <h1>Buenas,</h1>
 
                 <h2>Soy un chico de 20 años interesado en la programación,<br />
-actualmente estoy terminando el grado superior de desarrollo de aplicaiones multiplataformas.<br /><br />
+He desarrollado varias aplicaciones para algunas empresas a lo largo de mis estudios<br /><br />
 Principalmente estoy interesado en el desarrollo de frontends pero me puedo adaptar a desarrollar backends también<br /><br />
-Estoy buscando activamente trabajo, si desea contactar conmigo, puede hacerlo a través linkedin</h2>
+Estoy buscando activamente trabajo, si desea contactar conmigo, puede hacerlo a través del linkedin</h2>
             </div>
             <div class="skills">
                 <br /><br /><br /><br />

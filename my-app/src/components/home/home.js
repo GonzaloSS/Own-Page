@@ -25,7 +25,8 @@ export default function Home() {
         <div id='stars3'></div>
         <div id='title'>
         <h2>Bienvenido,</h2>
-          <h5>soy un programador junior<br/>que está terminando<br/>el grado superior de desarrollo<br/> de aplicaciones multiplataformas. </h5>
+          <h5>Soy un programador junior<br/>que está terminando<br/>el grado superior de desarrollo<br/> de aplicaciones multiplataformas. <br/>
+          con ganas de aprender y mejorar! </h5>
   
           <Link to="/perfil"><Button  variant="contained" color="primary" >Saber más</Button></Link>
         </div>
